@@ -12,7 +12,7 @@ const stunbolt = {
     action: '',
     description: `As you trot, waddle, and plough along, forced along by ominous figures screaming obsenities in an alien tongue behind you, you arrive at a large metallic door. With a shrill squeal, reminiscent of your younglins call for help, the door rises revealing a  dark narrow cooridor beyond. Excriment, blood, and terror envelop your finely tuned sense of smell in a squal of odor. Never has a putrid combination of scents been so numbing or alerting. As you venture forth, you are confronted with a tall masked figure clad in a loose white skin. In his had he wields a long, cylindrical device. The bi-ped toses it back and forth between there dextrous upper paws skillfully. You are not quite sure what this thing does - but judging from the feces and blood spilled across the floor - you know it will be your demise. What do you do?
     `,  
-
+//This will export an array of questions. 
     Choices: [{
         id: 'plead',
         description:'Plead for safe passage.',
@@ -23,7 +23,7 @@ const stunbolt = {
         id: 'run',
         description:'Turn and Run',
         result: `As you enter the narrow passage, you watch as herd ahead of you attempt to bargain with the baggy man in white. With the skill of the spider weaving it's web, bi-ped raises his weapon and delivers the coup de tat to each member of the proceeding party. That's no way to die. You turn and run with all your energy. Just before you escape through the tall door, the bi-ped prodding you forward levels a devastating kicks to your gut. You lose your breath and 20 stamina but manage to escape`,
-        stamina: -20 ,
+        stamina: -20,
         feed: 50,
     }, {
         id: 'revolt',
@@ -58,7 +58,7 @@ const gasChamber = {
         id: 'kick',
         description:`Just as the bi-ped shoves you into the metal box, a fly lands on your hind quarters and bites hard. This place has been full of flies since you got here. In frustration you kick and claw hard behind you. Shoo fly!`,
         result: `The fly zips away unaffected. But you accidentally smack the bi-ped in the hard part of their lower leg. They bellow in pain and fall hard to the ground. You decide this is no place to rest and slip quietly beyond your downed captor. You feel strangely energized by your escape`,
-        stamina: 60 ,
+        stamina: 60,
         feed: 50,
     }, {
         id: 'beg',
@@ -70,7 +70,7 @@ const gasChamber = {
     ]
 };
 
-const journey = [stunbolt, gasChamber, {
+const journeys = [stunbolt, gasChamber, {
     id: 'pasture',
     title: 'The Final Pasture',
     map: {
@@ -92,7 +92,7 @@ const journey = [stunbolt, gasChamber, {
         id: 'return',
         description:`Return, unwillingly to the factory of fear.`,
         result: `With a slow drawl and firm resolve, Old Farmer Mcdonald informs you you cannot leave. It's tough to understand his non animal language, but you get the gist. You have to return to the factory. As you trod back into the ominous building a new group of bi-peds arrives, dressed in black and wearing odd dark fur that covers their face.They grab you and gently put you in the back of their van. Hours later they deliver you to an even more beautiful and bountiful pasture. They shower you with food, love, and kindness. Ocassionaly you have to let youngling bi-peds pet and feed you, but it's better than the factory... `,
-        stamina: 100 ,
+        stamina: 100,
         feed: 100,
     }, {
         id: 'confront',
@@ -102,7 +102,8 @@ const journey = [stunbolt, gasChamber, {
         feed: 50,
     }
     ]
-};
+}
+];
 
-export default journey;
+export default journeys;
    

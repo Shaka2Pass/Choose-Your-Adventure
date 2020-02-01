@@ -1,0 +1,38 @@
+#header {
+    background-color: rgb(112, 108, 108);
+    font-family: 'Creepster', cursive;
+    width: 100vw;
+    border:red;
+    border-width: 2px;
+}
+
+#factory {
+    display: flex;
+    justify-content: center;
+    color: brown;
+    font-family: 'Creepster', cursive;
+}
+
+#journeys {
+    position: relative;
+    background-image: url("../assets/journeys/massive-pig-farm-90-degree-aerial.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: calc(90vw * 642 / 900);
+    margin: auto;
+}
+
+.journey {
+    position: absolute;
+    color: rgb(173, 50, 50);
+    font-size: 150%;
+    font-family: 'Creepster', cursive;
+}
+
+.journey-completed {
+    position: absolute;
+    color: rgb(173, 50, 50);
+    font-size: 150%;
+    font-family: 'Creepster', cursive;
+}
