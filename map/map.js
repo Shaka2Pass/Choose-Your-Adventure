@@ -1,7 +1,7 @@
 import { getUser } from '../data/api.js';
 import journeys from '../data/journey-data.js';
 import loadProfile from '../common/load-profile.js';
-import createJourneyLink from './create-journey-link';
+import createJourneyLink from './create-journey-link.js';
 import createCompletedJourney from './createCompletedJourney.js';
 import hasCompletedAllJourneys from './complete-quests.js';
 import isDead from '../common/is-dead.js';

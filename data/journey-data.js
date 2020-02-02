@@ -14,21 +14,21 @@ const stunbolt = {
     Choices: [{
         id: 'plead',
         description:'Plead for safe passage.',
-        result: `In the pasture you were raised on, the tall bi-peds were kind to you when you called to them. If you were in pain they came to you and mended your wounds. You call out to the armed stranger, and plead with them to let you pass unharmed. The bi-ped in white begins to laugh. A deep, terrible laugh. He beckons you near. You approach, believing you will leave unharmed. Without a moments hesitation the monster, grabs your scruff, pulls you in close, and places the device to your head. As silent as the fox at midnight, device delivers a crushing blow to your skull. You loose 35 stamina. But you are not dead. You are dragged off further into the depths of the bi-ped den.`,
-        stamina: -35,
-        feed: 50,
+        result: `In the pasture you were raised on, the tall bi-peds were kind to you when you called to them. If you were in pain they came to you and mended your wounds. You call out to the armed stranger, and plead with them to let you pass unharmed. The bi-ped in white begins to laugh. A deep, terrible laugh. He beckons you near. You approach, believing you will leave unharmed. Without a moments hesitation the monster, grabs your scruff, pulls you in close, and places the device to your head. As silent as the fox at midnight, device delivers a crushing blow to your skull. You loose 10 stamina. But you are not dead. You are dragged off further into the depths of the bi-ped den.`,
+        stamina: -10,
+        feed: 0,
     }, {
         id: 'run',
         description:'Turn and Run',
         result: `As you enter the narrow passage, you watch as herd ahead of you attempt to bargain with the baggy man in white. With the skill of the spider weaving it's web, bi-ped raises his weapon and delivers the coup de tat to each member of the proceeding party. That's no way to die. You turn and run with all your energy. Just before you escape through the tall door, the bi-ped prodding you forward levels a devastating kicks to your gut. You lose your breath and 20 stamina but manage to escape`,
         stamina: -20,
-        feed: 50,
+        feed: 0,
     }, {
         id: 'revolt',
         description:'Take your fate into your own hooves and revolt against your captors',
         result: `The sickening smell, the cacophonous noises and aggressive shoving from the bi-peds, and now this weapon wielding brute. Something is definitely not right. You know this will end badly. The large metal door you first entered through has shut. Time to make your stand, or die trying. You rush the firgure clad in white. You leap into the air, hooves and talons extended, and deliver a sharp blow to the bi-peds core area. You both tumble to the ground. The bi-ped weapon is thrown into the air, landing with unusual precision directly onto there left eye. The weapon activates and instantly stuns your tormenter. You escape by the hair of your chinny chin chin. You feel embolded by this move. Beyond the bi-ped is a trough of food, you take some feed, and push forward.`,
         stamina: -5,
-        feed: 100,
+        feed: 20,
     }
     ]
 };
@@ -48,18 +48,18 @@ const gasChamber = {
         id: 'relax',
         description:`You take a deep breath, close your eyes and try to get some rest. This place feels aweful and you will need all of your stamina to venture on.`,
         result:`As the smell of sour apples becomes stronger, you start to feel sick right before you lose conciousness. The gas in the chamber is poisonous, and you slowly suffocate losing all your stamina`,
-        stamina: -100,
-        feed: 50,
+        stamina: -0,
+        feed: 0,
     }, {
         id: 'kick',
         description:`Just as the bi-ped shoves you into the metal box, a fly lands on your hind quarters and bites hard. This place has been full of flies since you got here. In frustration you kick and claw hard behind you. Shoo fly!`,
-        result: `The fly zips away unaffected. But you accidentally smack the bi-ped in the hard part of their lower leg. They bellow in pain and fall hard to the ground. You decide this is no place to rest and slip quietly beyond your downed captor. You feel strangely energized by your escape`,
+        result: `The fly zips away unaffected. But you accidentally smack the bi-ped in the hard part of their lower leg. They bellow in pain and fall hard to the ground. You decide this is no place to rest and slip quietly beyond your downed captor. You feel strangely energized by your escape.Oh and look some feed is piled on a barrel on your way out. Dine and dash!`,
         stamina: 60,
         feed: 50,
     }, {
         id: 'beg',
         description:`The smell eminating from the room can only mean one thing. Certain death. Or at the very least chemical castration. Both options don't sound very pleasant. You turn to the bi-ped behind you and with every ounce of heart you can must give them "The Look", a skill mastered as a youngling, the eyes plead for mothers milk and and affection. Mastered by doe and dog alike, in this house of horrors no attempt is beyond reproach. `,
-        result: `The human bi-ped did not expect this turn of events and is caught off gaurd. Unbeknownst to you, they hate they have treated you with such malice and hate. They pull some feed from their pocket and give it you willingly. More suprisingly they set you free. They can't let leave, but at least you wont be taking a nap in this metal tomb.`,
+        result: `The human bi-ped did not expect this turn of events and is caught off gaurd. Unbeknownst to you, they hate they have treated you with such malice and hate. They pull some feed from their pocket and give it to you willingly. More suprisingly they set you free. They can't let leave, but at least you wont be taking a nap in this metal tomb.`,
         stamina: 0,
         feed: 75,
     }
