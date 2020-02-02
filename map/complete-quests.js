@@ -13,6 +13,5 @@ function hasCompletedAllJourneys(journeys, user) {
 
 export default hasCompletedAllJourneys;
 
-//journey.forEach(hasCompletedAllJourneys =>)
 
     

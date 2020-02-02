@@ -1,0 +1,19 @@
+.choice {
+    display: block;
+    list-style: none;
+}
+
+.choice input {
+    margin-right: 10px
+}
+
+#result {
+    background: grey;
+    padding: 20px;
+}
+
+#result-description {
+    background: grey;
+    font-weight: bolder;
+    font-family: 'Creepster', cursive;
+}

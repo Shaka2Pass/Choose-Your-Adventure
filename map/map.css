@@ -36,3 +36,7 @@
     font-size: 150%;
     font-family: 'Creepster', cursive;
 }
+
+.journey.completed:after {
+    content: ' ✔';
+}

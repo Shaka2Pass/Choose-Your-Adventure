@@ -8,8 +8,6 @@ const stunbolt = {
         left: '45%'
     },
     image: 'bolt-gun.jpg',
-    audio: '',
-    action: '',
     description: `As you trot, waddle, and plough along, forced along by ominous figures screaming obsenities in an alien tongue behind you, you arrive at a large metallic door. With a shrill squeal, reminiscent of your younglins call for help, the door rises revealing a  dark narrow cooridor beyond. Excriment, blood, and terror envelop your finely tuned sense of smell in a squal of odor. Never has a putrid combination of scents been so numbing or alerting. As you venture forth, you are confronted with a tall masked figure clad in a loose white skin. In his had he wields a long, cylindrical device. The bi-ped toses it back and forth between there dextrous upper paws skillfully. You are not quite sure what this thing does - but judging from the feces and blood spilled across the floor - you know it will be your demise. What do you do?
     `,  
 //This will export an array of questions. 
@@ -43,8 +41,6 @@ const gasChamber = {
         right: '45%'
     },
     image: 'gas-chamber.jpg',
-    audio: '',
-    action: '',
     description: `As you trot, waddle, and plough along, forced along by ominous figures screaming obsenities in an alien tongue behind you, you arrive at a large box. It looks a bit like the pen you were forced to sleep in as a youngling, but somehow you sense you won't wake up from your rest in this in this cold cell. As the large bi-ped kicks you into the chamber and closes the gate behind you, you begin to smell a sickly sweet smell. What do you do?
     `,  
 
