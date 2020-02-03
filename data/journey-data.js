@@ -37,8 +37,8 @@ const gasChamber = {
     id: 'gasChamber',
     title: 'A Deadly Mist',
     map: {
-        top: '80%',
-        right: '45%'
+        top: '37%',
+        left: '42%',
     },
     image: 'gas-chamber.jpg',
     description: `As you trot, waddle, and plough along, forced along by ominous figures screaming obsenities in an alien tongue behind you, you arrive at a large box. It looks a bit like the pen you were forced to sleep in as a youngling, but somehow you sense you won't wake up from your rest in this in this cold cell. As the large bi-ped kicks you into the chamber and closes the gate behind you, you begin to smell a sickly sweet smell. What do you do?
@@ -70,8 +70,8 @@ const journeys = [stunbolt, gasChamber, {
     id: 'pasture',
     title: 'The Final Pasture',
     map: {
-        top: '80%',
-        center: '45%'
+        top: '47%',
+        left: '72%'
     },
     image: '',
     audio: '',

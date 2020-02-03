@@ -6,18 +6,20 @@ import findById from '../common/findByID.js';
 import scoreJourney from './scoreJourney.js';
 
 loadProfile();
-
+//find search parameters from URL.
 const searchParams = new URLSearchParams(window.location.search);
 
-const journeyId = searchParams.get ('id');
+const journeyId = searchParams.get('id');
 
 const journey = findById(journeys, journeyId);
 
+/*
+This function is working. and subsequently kicks the user. Because my quests aren't being pulled from the URL. 
+
 if (!journey) {
-    window.location = '../map';
-
-}
-
+    //window.location = '../map';
+} 
+*/
 const title = document.getElementById('title');
 const image = document.getElementById('image');
 const description = document.getElementById('description');
@@ -26,13 +28,14 @@ const choices = document.getElementById('choices');
 const result = document.getElementById('result');
 const resultDescription = document.getElementById('result-description');
 
+//the following code is supposed to take the quest that is retreived by findById...when it works. 
 title.textContent = journey.title;
 image.src = '../assets/journeys/' + journey.image;
 description.textContent = journey.description;
 
-for (let index = 0; index < journey.choices.length; index++) 
-
-{const choice = journey.choices[index];
+for (let i = 0; i < journeys.choices.length; i++)
+{
+    const choice = journeys.choices[i];
 
     const choiceDOM = createChoice(choice);
 

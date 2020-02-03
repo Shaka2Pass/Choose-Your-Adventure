@@ -14,7 +14,7 @@ if (isDead(user) || hasCompletedAllJourneys(journeys, user)) {
     window.location = '../results';
 }
 
-const nav = document.getElementById ('journeys');
+const nav = document.getElementById('journeys');
 
 for (let i = 0; i < journeys.length; i++){
     const journey = journeys[i];
@@ -24,6 +24,7 @@ for (let i = 0; i < journeys.length; i++){
     if (user.completed[journey.id]) {
         journeyDisplay = createCompletedJourney(journey);
     }
+    
     else {
         journeyDisplay = createJourneyLink(journey);
     }

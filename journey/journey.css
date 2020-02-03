@@ -1,6 +1,17 @@
+ header {
+font-weight: lighter;
+font-family: 'Creepster', cursive;
+}
+
+
 .choice {
     display: block;
     list-style: none;
+}
+
+#choice-form {
+    display: flex;
+    justify-content: center;
 }
 
 .choice input {
@@ -15,5 +26,36 @@
 #result-description {
     background: grey;
     font-weight: bolder;
+    font-family: 'Creepster', cursive;
+}
+
+#stamina{
+    color: greenyellow;
+    text-shadow:
+    -1px -1px 0 rgb(255, 255, 255),
+    1px -1px 0 rgb(255, 255, 255),
+    -1px 1px 0 rgb(255, 255, 255),
+    1px 1px 0 rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+
+}
+
+#feed {
+    color: greenyellow;
+    text-shadow:
+    -1px -1px 0 rgb(255, 255, 255),
+    1px -1px 0 rgb(255, 255, 255),
+    -1px 1px 0 rgb(255, 255, 255),
+    1px 1px 0 rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+
+}
+
+#name {
+   font-family: 'Oswald', sans-serif;
+   color: red
+    ;
+}
+h1 {
     font-family: 'Creepster', cursive;
 }

@@ -1,23 +1,66 @@
-@import url('https://fonts.googleapis.com/css?family=Heebo|Oswald');
-
 body {
-    font-family: 'Heebo', "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
-    background: wheat;
+    background: rgb(88, 83, 72);
     margin: 0;
+    color: whitesmoke;
+    font-family: 'Oswald', sans-serif;
 }
 
 h1, h2 {
-    font-family: 'Oswald';
+    font-family: 'Creepster', cursive;
+    display: block;
+    justify-content: center;
 }
 
-* {
-    box-sizing: border-box;
+h1 {
+    color: red;
+}
+
+h2 {
+    color:rgb(105, 148, 40);
+    display: flex;
+    justify-content: center;
+    text-shadow:
+    -1px -1px 0 rgb(255, 255, 255),
+    1px -1px 0 rgb(255, 255, 255),
+    -1px 1px 0 rgb(255, 255, 255),
+    1px 1px 0 rgb(255, 255, 255);
+}
+
+legend {
+    display: flex;
+    justify-content: center;
+}
+
+#avatar {
+    display: flex;
+    justify-content: center;
+}
+
+div.enter {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    font-family: 'Creepster', cursive;
+}
+
+button{
+    font-family: 'Creepster', cursive;
+    color: red;
+}
+
+.text-promt {
+    display: flex;
+    justify-content: center;
 }
 
 .hidden {
     display: none;
 }
 
+main {
+    display: block;
+    justify-content: center;
+}
 header, main {
     padding: 8px;
 }
@@ -26,23 +69,33 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: white;
-    border-bottom: 1px solid orange;
+    background: rgb(24, 10, 10);
+    border: 2px solid orange;
+    font-family: 'Creepster', cursive;
+    text-shadow:
+		-1px -1px 0 rgb(255, 255, 255),
+		1px -1px 0 rgb(255, 255, 255),
+		-1px 1px 0 rgb(255, 255, 255),
+		1px 1px 0 rgb(255, 255, 255);
 }
 
 h1 {
     margin: 0 20px;
     flex-grow: 2;
+    display: flex;
 }
 
 footer {
     position: fixed;
     bottom: 0;
     left: 0; right: 0;
-    height: 65px;
+    height: 15px;
     background: lightgrey;
     text-align: center;
-    padding-top: 25px;
+    padding-bottom: 12px;
+    background: rgb(24, 10, 10);
+    border: 2px solid orange;
+    font-family: 'Creepster', cursive;
 }
 
 main {
